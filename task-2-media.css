@@ -1,0 +1,422 @@
+@media (max-width: 1440px){
+    .header{
+        height: 700px;
+        background-image: url(./img-T-2/asset\ 9.jpeg);
+        background-size: 100%; 
+        text-align:right;
+       
+        
+    }
+    .comming-soon{ 
+        padding-left:33%;
+        bottom: -440%;
+        font-size: 3.5rem;
+        letter-spacing: 5px;  
+        font-weight: 500;
+    }
+    .latency{
+        font-size: 2.4rem;
+        right: 23%;
+        top: 293%;
+         
+    }
+
+}
+@media screen and (max-width: 1024px){ 
+    .header{
+        height: 495px;
+        background-image: url(./img-T-2/asset\ 9.jpeg);
+        background-size: 100%; 
+        text-align:right;
+       
+        
+    }
+    .buds-name{
+        padding-top: 190px;
+        padding-right: 80px;
+        font-size: 2.8rem;
+    }
+    .header-text-2{
+    
+        font-size: 1rem;
+        padding-right: 184px; 
+    
+    }
+    .header-text{
+        
+        font-size: 1.2rem;
+        padding-top: 20px; 
+        padding-right: 95px;
+        
+    
+    }
+    .features-container{
+       margin: 0px 20px;
+       
+       
+    }
+    
+    .features-container .box{
+      font-size: 2rem;
+      height: 300px;
+    }
+    .first-box img{
+        height: 200px;
+        margin-top: 40px;
+        
+       
+    }
+    .sec-box img{
+        height: 250px;
+        margin-top: 0px;
+        
+       
+    }
+    .latency{
+        font-size: 2.4rem;
+        right: 22.5%;
+        top: 245%;
+         
+    }
+    
+    .b-txt{
+        font-size: 3rem;
+        font-weight:500;
+    
+    }
+    .b-txt-2{
+        font-size: 1.3rem;
+        padding-top: 2px;
+  
+    
+    }
+    .b-paragraph{
+        font-size: 1rem;
+    }
+    .comming-soon{
+         
+        padding-left:33%;
+        bottom: -350%;
+        font-size: 2rem;
+        letter-spacing: 5px;  
+        font-weight: 500;
+    }
+
+}
+
+@media (max-width: 768px) {
+    ul{
+        gap: 50px;
+    }
+    a{
+        font-size: 1rem;
+    }
+    .features-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-container .box{
+        font-size: 2.2rem;
+    }
+    .box-txt{
+        padding-top: 25px;
+    }
+    .header{
+        margin-top: 50px;
+        height:370px;
+    }
+    .buds-name{
+        padding-top: 150px;
+        padding-right: 70px;
+        font-size: 2rem;
+    }
+    .header-text-2{
+    
+        font-size: 1rem;
+        padding-right: 134px;
+        padding-top: 20px;  
+    
+    }
+    .header-text{
+        
+        font-size: 0.8rem;
+        padding-top: 20px; 
+        padding-right: 95px;
+        
+    
+    }
+    .cards-section{
+      
+        margin: 10px 20px;
+        
+    }
+
+    .card {
+        
+        font-size: 1.1rem;
+        width: 300px;
+    }
+    .latency{
+        font-size: 2.4rem;
+        right: 20%;
+        top: 283%;
+         
+    
+    }
+
+
+    .b-txt{
+        font-size: 2.6rem;
+        font-weight:500;
+    
+    }
+    .b-txt-2{
+        font-size: 1.3rem;
+        padding-top: 20px;
+  
+    
+    }
+    .b-paragraph{
+        font-size: 1rem;
+    }
+    .comming-soon{
+         
+        padding-left:31%;
+        bottom: -355%;
+        font-size: 2rem;
+        letter-spacing: 5px;  
+        font-weight: 500;
+    }
+     
+
+}
+@media screen and (max-width: 426px){ 
+    ul{
+        
+        gap: 15px;
+    }
+    a{
+ 
+        font-size: 1rem;
+ 
+    }
+    .company-title{
+        font-size: 2rem;
+    }
+    .header{
+        height: 205px;
+    }
+    .buds-name{
+        padding-top: 70px;
+        padding-right: 8px;
+        font-size:1.5rem;
+        font-weight: 600;
+    }
+    .header-text{
+        font-size: 0.7rem;
+        padding-right:5px;
+        padding-top: 10px;  
+        
+    
+    }
+    .header-text-2{
+        font-size: 1rem;
+        padding-right: 40px;
+        padding-top: 10px;  
+    
+    }
+    .feature-section{
+        margin: 20px 0px;
+        margin-left: 20px;
+    }
+    .features-container .box{
+        height: 200px;
+        width: 350px;
+        font-size: 1.3rem;
+    }
+    .first-box img{
+        height: 170px;
+        margin-top: 20px;
+        
+       
+    }
+    .sec-box img{
+        height: 150px;
+        margin-top: 10px;  
+       
+    }
+    
+    .cards-section{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .company-title{
+        font-size: 1.5rem;
+    }
+    .card {
+        padding-top: 15px;
+        font-size: 1rem;
+        margin-top: 50px;
+        width: 250px;
+        height: 200px;
+    }
+    .card-img-1{
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-img-2{
+        height:120px ;
+        width: 150px;
+        margin-top: 20px;
+      
+    }
+
+    .latency{
+        top: 215%;
+        right: 37%;
+        font-size: 2rem;
+        
+
+    }
+    .bluetooth-section{
+        flex-direction:column;
+    }
+    
+    .blutooth-img{
+    
+      width: 70%;
+      margin-right: -15px;
+    }
+    .bluetooth-txt{
+     
+        margin-left: 0px;
+    }
+    .b-paragraph{
+        font-size: 0.8rem;
+        padding: 5px;
+        
+    }
+    .end-section img{
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    .comming-soon{
+        padding-left: 29%;
+        bottom: -293%;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+}
+@media screen and (max-width:320px){
+    ul{
+        
+        gap: 7px;
+    }
+    a{
+ 
+        font-size: 0.7rem;
+ 
+    }
+    .header-text{
+        font-size: 0.5rem;
+        padding-right:25px;
+        padding-top: 5px;  
+        
+    
+    }
+    .header-text-2{
+        font-size: 0.6rem;
+        padding-right: 50px;
+        padding-top: 5px;  
+    
+    }
+    .buds-name{
+        padding-top: 50px;
+        padding-right: 30px;
+        font-size: 1rem;
+    }
+    .header{
+        height: 155px;
+    }
+    .features-container .box{
+        height: 150px;
+        width: 280px;
+        font-size: 1rem;
+    }
+    .first-box img{
+        height: 100px;
+        margin-top: 20px;
+        
+       
+    }
+    .sec-box img{
+        height: 100px;
+        margin-top: 10px;
+        
+       
+    }
+    .company-title{
+        font-size: 1.5rem;
+    }
+    .card {
+        padding-top: 15px;
+        font-size: 1rem;
+        margin-top: 50px;
+        width: 250px;
+        height: 200px;
+    }
+    .card-img-1{
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-img-2{
+        height:120px ;
+        width: 150px;
+        margin-top: 20px;
+      
+    }
+    .latency{
+        top: 188%;
+        right: 36%;
+        font-size: 2rem;
+        
+
+    }
+    .bluetooth-section{
+        flex-direction:column;
+    }
+    
+    .bluetooth-txt{
+     
+        margin-left: 0px;
+    }
+    .b-paragraph{
+        font-size: 1.1rem;
+        
+    }
+    .b-txt{
+        font-size: 1.5rem;
+      
+    
+    }
+    .b-txt-2{
+        font-size: 1rem;
+        margin-top: 0px;
+    
+    }
+    .b-paragraph{
+        font-size: 0.6rem;
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+    .comming-soon{
+        padding-left: 29%;
+        bottom: -236%;
+        font-size: 1rem;
+        letter-spacing: 0px;
+        font-weight: 600;
+    }
+
+}

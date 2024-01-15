@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    gap: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(126, 100, 80);
+}
+.bg-grid {
+    display: grid;
+}
+/* nav section */
+.nav-title{
+    justify-content: space-evenly;
+    font-family:poppins;
+}
+.company-title{
+    font-size: 2.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: green;
+}
+.nav-title{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* header section */
+.header-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    padding-right: 45px;
+    padding-top: 20px;  
+    
+
+}
+.header{
+    height: 737px;
+    background-image: url(./img-T-2/asset\ 9.jpeg);
+    background-size: 100%; 
+    text-align:right;
+   
+    
+}
+.buds-name{
+    padding-top: 250px;
+    padding-right: 130px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    transform: translateY(0);
+    opacity: 1; 
+}
+.header-text-2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    padding-right: 210px;
+    padding-top: 20px;  
+
+}
+.header:first-child{
+    animation: anim  5s;
+}
+@keyframes anim {
+    0%{
+        transform: translate3d(0, 1rem, 0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+/* features section */
+.feature-section{
+    margin: 80px 0px;
+}
+.features-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 0px 105px;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+
+
+.features-container .box{
+    height: 340px;
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.6s;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    user-select: none;
+
+}
+.box-txt{
+    padding-top: 20px;
+}
+.first-box img{
+    height: 250px;
+    margin-top: 40px;
+    
+   
+}
+.sec-box img{
+    height: 250px;
+    margin-top: 50px;
+    
+   
+}
+.features-container .box:hover{
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.02);
+     
+ 
+ 
+}
+.first-box:active {
+    transform: scale(0.95);
+    user-select: none;
+ 
+}
+.cards-section{
+    font-family:Arial, Helvetica, sans-serif;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin: 50px 50px;
+    
+}
+
+.card {
+    padding-top: 25px;
+    font-size: 1.2rem;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 340px;
+    background: rgba(247, 243, 243, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95);
+  }
+
+.card-img-1{
+    height: 270px;
+    margin-top: 10px;
+}
+.card-img-2{
+    height:260px ;
+    margin-top: 20px;
+    mix-blend-mode:normal;
+}
+.latency{
+    font-size: 2.4rem;
+    font-weight: 700;
+    position: absolute;
+    right: 23%;
+    color: rgb(255, 255, 255);
+    top: 213%;
+    font-family:Arial, Helvetica, sans-serif;
+     
+
+}
+
+
+
+
+
+
+
+.bluetooth-section{
+    margin-top: 160px;
+    gap: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.blutooth-img{
+    
+    width: 40%;
+    margin-right: 50px;
+}
+.bluetooth-txt{
+    text-align: center;
+    margin-left: 50px;
+}
+.b-txt{
+    font-size: 4rem;
+    font-weight:500;
+
+}
+.b-txt-2{
+    font-size: 2rem;
+    margin-top: 10px;
+
+}
+.b-paragraph{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: rgb(118, 118, 118);
+
+}
+.end-section img{
+    width: 100vw;
+     
+    margin-top: 180px;
+    
+}
+.comming-soon{
+    position:absolute;
+    padding-left: 34%;
+    bottom: -300%;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
